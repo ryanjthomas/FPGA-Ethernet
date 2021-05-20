@@ -1,0 +1,59 @@
+do simulate_tb.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package config_pkg
+# -- Loading package config_pkg
+# -- Compiling entity config_register_block
+# -- Compiling architecture rtl of config_register_block
+# -- Loading package MATH_REAL
+# -- Compiling package eth_common
+# -- Compiling package body eth_common
+# -- Loading package eth_common
+# -- Loading package eth_common
+# -- Compiling entity udp_data_arbiter
+# -- Compiling architecture vhdl_rtl of udp_data_arbiter
+# -- Compiling entity config_read_multiplexer
+# -- Compiling architecture vhdl_rtl of config_read_multiplexer
+# -- Compiling entity config_block_scanner
+# -- Compiling architecture vhdl_rtl of config_block_scanner
+# ** Warning: ../../config_scanner/config_block_scanner.vhd(130): Synthesis Warning: Reset signal 'reset' is not in the sensitivity list of process 'state_machine'.
+# -- Loading package std_logic_textio
+# -- Compiling entity testbench
+# -- Compiling architecture tb of testbench
+# -- Loading entity udp_data_arbiter
+# -- Loading entity config_block_scanner
+# -- Loading entity config_read_multiplexer
+# -- Loading entity config_register_block
+# vsim -t ns testbench 
+# //  ModelSim ALTERA 10.1d Nov  2 2012 Linux 5.0.0-32-generic
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.eth_common(body)
+# Loading work.config_pkg
+# Loading work.testbench(tb)
+# Loading work.udp_data_arbiter(vhdl_rtl)
+# Loading work.config_block_scanner(vhdl_rtl)
+# Loading work.config_read_multiplexer(vhdl_rtl)
+# Loading work.config_register_block(rtl)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.objects.interior.cs.body.tree
+# .main_pane.process.interior.cs.body
+# Error: no layout named Simulate_1 exists
+# 1
+# 0

@@ -1,0 +1,40 @@
+do simulate_hdgen.tcl
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling package eth_common
+# -- Compiling package body eth_common
+# -- Loading package eth_common
+# -- Compiling entity header_generator
+# -- Compiling architecture rtl of header_generator
+# -- Loading package eth_common
+# -- Compiling entity testbench
+# -- Compiling architecture tb of testbench
+# vsim -t ns testbench 
+# //  ModelSim ALTERA 10.1d Nov  2 2012 Linux 5.0.0-32-generic
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.eth_common(body)
+# Loading work.testbench(tb)
+# Loading work.header_generator(rtl)
+# .main_pane.wave.interior.cs.body.pw.wf
+# /testbench/hdgen
+# .main_pane.objects.interior.cs.body.tree
+# .main_pane.process.interior.cs.body
+# Error: no layout named Simulate_1 exists
+# 1
+# 0

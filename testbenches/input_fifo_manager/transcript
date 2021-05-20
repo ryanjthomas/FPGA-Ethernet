@@ -1,0 +1,76 @@
+do simulate_ifm.tcl
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fifo_32x2048
+# -- Compiling architecture SYN of fifo_32x2048
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling package eth_common
+# -- Compiling package body eth_common
+# -- Loading package eth_common
+# -- Loading package eth_common
+# -- Compiling entity input_fifo_manager
+# -- Compiling architecture rtl of input_fifo_manager
+# -- Loading entity fifo_32x2048
+# -- Compiling entity testbench
+# -- Compiling architecture tb of testbench
+# -- Loading entity input_fifo_manager
+# vsim -t ns testbench 
+# //  ModelSim ALTERA 10.1d Nov  2 2012 Linux 5.0.0-32-generic
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.eth_common(body)
+# Loading work.testbench(tb)
+# Loading work.input_fifo_manager(rtl)
+# Loading work.fifo_32x2048(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altera_mf_hint_evaluation(body)
+# Loading altera_mf.dcfifo(behavior)
+# Loading altera_mf.dcfifo_mixed_widths(behavior)
+# Loading altera_mf.dcfifo_async(behavior)
+# Loading altera_mf.dcfifo_dffpipe(behavior)
+# Loading altera_mf.dcfifo_fefifo(behavior)
+# Loading altera_mf.dcfifo_sync(behavior)
+# Loading altera_mf.dcfifo_low_latency(behavior)
+# .main_pane.wave.interior.cs.body.pw.wf
+# /testbench/ifm
+# .main_pane.objects.interior.cs.body.tree
+# .main_pane.process.interior.cs.body
+# Error: no layout named Simulate_1 exists
+# 1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Region: /testbench/ifm/flush_stale_gen(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Region: /testbench/ifm/flush_stale_gen(0)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Region: /testbench/ifm/flush_stale_gen(1)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Region: /testbench/ifm/flush_stale_gen(1)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Region: /testbench/ifm/flush_stale_gen(2)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Region: /testbench/ifm/flush_stale_gen(2)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Region: /testbench/ifm/flush_stale_gen(3)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Region: /testbench/ifm/flush_stale_gen(3)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Region: /testbench/ifm/flush_stale_gen(4)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Region: /testbench/ifm/flush_stale_gen(4)
+# 0
