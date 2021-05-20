@@ -3,7 +3,7 @@
 -- Project    : 
 -------------------------------------------------------------------------------
 -- File       : ethernet_optical_block_tb.vhd
--- Author     : Ryan Thomas  <ryan@ryan-ThinkPad-T450s>
+-- Author     : Ryan Thomas  <ryan@uchicago.edu>
 -- Company    : University of Chicago
 -- Created    : 2019-08-26
 -- Last update: 2021-05-20
@@ -12,7 +12,7 @@
 -------------------------------------------------------------------------------
 -- Description: 
 -------------------------------------------------------------------------------
--- Copyright (c) 2019 Ryan Thomas  <ryan@ryan-ThinkPad-T450s>
+-- Copyright (c) 2019 Ryan Thomas  <ryan@uchicago.edu>
 -------------------------------------------------------------------------------
 -- Revisions  :
 -- Date        Version  Author  Description

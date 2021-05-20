@@ -26,3 +26,26 @@ the command "do simulate_tb.tcl"
 
 The design of the mainboard can be found here:
 http://edg.uchicago.edu/~bogdan/DAMIC_ODILE/index.html
+
+## Organization
+
+All code related to the Ethernet interface proper is in the "ethernet"
+folder. Other folders contain specific functionality driven by
+Ethernet signal, or used by the Ethernet block ("common_modules"
+specifically).
+
+## Requirements
+
+Code was developed using Quartus Prime 13.0sp1. In order to actually
+use this code, you would need to create the Altera megafunctions used:
+the main requirement is the Triple-Speed Ethernet megafunction. A
+handful of other functions are used as well (mainly FIFOs for various
+buffers, and the ALTREMOTE_UPDATE and ALTASMI_PARALLEL to access the
+remote update hardware and EPCQIO flash memory, respectively).
+
+## Testbenches
+
+Testbenches for some of the blocks is included in the "testbenches"
+folder. These are meant to be run using Modelsim Altera edition, using
+the included "simulate_??.tcl" scripts. Testbenches include
+verification of some basic functionality.

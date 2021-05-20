@@ -3,16 +3,16 @@
 -- Project    : 
 -------------------------------------------------------------------------------
 -- File       : ethernet_led_signaler_tb.vhd
--- Author     : Ryan Thomas  <ryan@ryan-ThinkPad-T450s>
+-- Author     : Ryan Thomas  <ryan@uchicago.edu>
 -- Company    : University of Chicago
 -- Created    : 2020-01-30
--- Last update: 2020-01-30
+-- Last update: 2021-05-20
 -- Platform   : 
 -- Standard   : VHDL'93/02
 -------------------------------------------------------------------------------
 -- Description: 
 -------------------------------------------------------------------------------
--- Copyright (c) 2020 Ryan Thomas  <ryan@ryan-ThinkPad-T450s>
+-- Copyright (c) 2020 Ryan Thomas  <ryan@uchicago.edu>
 -------------------------------------------------------------------------------
 -- Revisions  :
 -- Date        Version  Author  Description
