@@ -19,7 +19,7 @@ Code in this repository is included as-is, in the hope it may be
 useful to someone else. Some code is included for interfacing with the
 CABAC and CROC chips (mezzanine cards on the ODILE). All code included
 has been written by me: to avoid copyright issues, no Altera code is
-included.
+included. The only exception are some libraries included in the server directory.
 
 The design of the mainboard can be found here:
 http://edg.uchicago.edu/~bogdan/DAMIC_ODILE/index.html
