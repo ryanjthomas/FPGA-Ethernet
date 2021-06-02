@@ -46,3 +46,11 @@ Testbenches for some of the blocks is included in the "testbenches"
 folder. These are meant to be run using Modelsim Altera edition, using
 the included "simulate_??.tcl" scripts. Testbenches include
 verification of some basic functionality.
+
+## Server Code
+
+Some example C++ server code is included in the "server" to interface
+with the FPGA code. This code includes the
+[udp_client_server](https://linux.m2osw.com/c-implementation-udp-clientserver)
+and [tclap](http://tclap.sourceforge.net) libraries, copyright their
+respective owners.
