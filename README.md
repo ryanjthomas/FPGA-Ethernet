@@ -53,4 +53,5 @@ Some example C++ server code is included in the "server" to interface
 with the FPGA code. This code includes the
 [udp_client_server](https://linux.m2osw.com/c-implementation-udp-clientserver)
 and [tclap](http://tclap.sourceforge.net) libraries, copyright their
-respective owners.
+respective owners. This code is distributed under a GPLv3 license to
+retain compatibility with the libaries.
